@@ -2,8 +2,9 @@ package com.matthewgoing;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.Transaction;
+
 
 /**
  * Hello world!
@@ -13,6 +14,8 @@ public class App
 {
     public static void main( String[] args )
     {
+        System.out.println("Am i going insane?");
+
         Alien telusko = new Alien();
         telusko.setAid(101);
         telusko.setAname("Navin");

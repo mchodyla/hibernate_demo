@@ -29,7 +29,6 @@ public class Alien {
         this.color = color;
     }
     
-    
     @Override
     public String toString() {
         return "Alien {" +
@@ -38,4 +37,5 @@ public class Alien {
             ", color=" + color +
             "}";
     }
+    
 }
